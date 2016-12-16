@@ -26,6 +26,6 @@ scopeName "EZI_main";
 if(isNull _curator) exitWith { diag_log "[EZI] Player is not a curator! This shouldn't happen.."; };
 
 _curator removeEventHandler ["CuratorObjectPlaced", EZI_CuratorEH];
-[_curator] remoteExec ["unassignCurator", 2];
+_curator remoteExec ["unassignCurator", 2];
 format ["[EZI] %1 logged out", name _unit] remoteExec ["systemChat", -2];
 EZI_LoggedIn = false;

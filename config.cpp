@@ -50,7 +50,6 @@ class CfgFunctions {
             class login;
             class logout;
             class onPlayerRespawn;
-            class assignCurator;
             class registerObjects;
         };
     };

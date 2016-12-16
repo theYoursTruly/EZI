@@ -10,7 +10,7 @@
  *
  * [] call EZI_fnc_initClient
 */
-﻿if(!hasInterface) exitWith {};
+if(!hasInterface) exitWith {};
 
 EZI_AddAction = -1;
 EZI_LoggedIn = false;
