@@ -29,6 +29,7 @@ _curatorNum = {
 if(isNull _curator) then {
     _names = "";
     { _names = _names + "<br/>" + name getAssignedCuratorUnit _x; } forEach allCurators;
+    hint parseText format["<t color='#ff8888' size='1.2'>All %1 curators in use%2</t>", _curatorNum, _names];
 } else {
     EZI_LoggedIn = true;
     [_unit, _curator] remoteExec ["assignCurator", 2];
