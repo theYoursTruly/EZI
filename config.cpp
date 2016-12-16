@@ -1,5 +1,3 @@
-//This file should not be changed. If you want to add a new module - do it in EZI_modules addon.
-
 class CfgPatches {
     class EZI {
         units[] = {};
